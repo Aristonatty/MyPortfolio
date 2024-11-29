@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta  charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natasa Kocic Portfolio</title>
+    <link rel="stylesheet" href="MyPortfolio.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">NK</h1>
+
+            <div class="nav-link-container">
+                <ui class="nav-links">
+                    <li><a href="MyPortfolio.html">Home</a></li>
+                    <li><a href="AboutMe.html">About me</a></li>
+                </ui>
+            </div>
+        </nav>
+
+    </header>
+<section class="intro-myself">
+    <h1>Let me tell you a bit about myself...</h1>
+    <img src="Me.jpg" alt="Profile picture">
+</section>
+    
+<main>
+    <section class="description">
+    <p>I am language enthusiast, like to make creative things with my hands...</p>
+    <p>Cat lover</p>
+    <p>Enjoy travelling</p>
+    <p>Sun worshiper</p>
+
+    </section>
+
+</main>
+</body>
+
+<footer>
+    <section class="contacts">
+    <h2>Contact</h2>
+    <ui class="email-link">
+    <li><a href="">natasa.kocic@chasacademy.se</a></li>
+    </ui>
+    <h3>Want to get in touch? Send me a message:</h3>
+    <form action="submit_form.php" method="post">
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+    <br><br>
+    
+    <button type="submit">Send</button>
+    </form>
+    </section>
+</footer>
